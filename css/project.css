@@ -1,20 +1,20 @@
-.menu li{
+ul li{
 	list-style: none;
 	display: inline-block;
 }
-.menu li a{
+ul li a{
 	display: block;
-	width: 200px;
-	height: 80px;
-	background: black;
-	color: snow;
+	width: 80px;
+	height: 20px;
+	background: blue;
+	color: yellow;
 	text-align: center;
 	text-decoration: none;
 	border-radius: 35%;
-	box-shadow: 4px 4px 5px red;
+	box-shadow: 4px 4px 5px black;
 	transition: 0.5s;
 }
-.menu li a:hover{
-	background: red;
+ul li a:hover{
+	background: yellow;
 	color: black
 }
