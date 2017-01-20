@@ -16,5 +16,27 @@ ul li a{
 }
 ul li a:hover{
 	background: yellow;
-	color: black
+	color: black;
+}
+h3 {
+	color: blue;
+}
+article > p {
+	font-family: 'Lora', serif;
+	font-size: 15px;
+	color: blue;
+	text-shadow: 0px 0px 0px black;
+}
+label {
+	color: blue;
+}
+button {
+	color: blue;
+}
+.one {
+	color: blue;
+}
+	
+	
+	
 }

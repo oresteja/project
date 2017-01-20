@@ -19,19 +19,21 @@
 	</header>
 	<section>
 	    <article>
-	        <p>
+	        <h3>
 	            Ось такі цукерочки пропоную вашій увазі:
-	        </p>
+	        </h3>
 	    </article>
     <article>
-	    <img src="smallpack.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="30">
-	    <p>Це цукерки 4 редакції. В пачці 45 грам.<br>
+	    <img src="smallpack.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
+	    <p>Маленька пачка за 90 грн.<br>
+	    Це цукерки 4 редакції. В пачці 45 грам.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
 	    <img src="tastes.jpg" alt="tastes" width="120" height="120" hspace="10">
 	     <br>
-	     <label>Кількість<br>
-            <select name="quantity">
+	     <br>
+    <label>Кількість
+	     <select name="quantity">
     <option value="0">0</option>
     <option value="1">1</option>
     <option value="2">2</option>
@@ -40,32 +42,104 @@
     <option value="5">5</option>
             </select>
     </label>
-    <p></p><button>Купити</button></p>
+    <button type="button">Купити</button>
     </article>
 	<article>
 	    <img src="bigpack.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-	     <p>Це цукерки 4 редакції. В пачці 99 грам + РУЛЕТКА!<br>
+	     <p>Велика пачка за 220 грн.<br>
+	    Це цукерки 4 редакції. В пачці 99 грам + РУЛЕТКА!<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
 	    <img src="tastes.jpg" alt="tastes" width="120" height="120" hspace="10">
+	    <br>
+	    <br>
+	     <label>Кількість
+	     <select name="quantity">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+            </select>
+    </label>
+	     <button type="button">Купити</button>
     </article>
     <article>
         <img src="bottle.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-         <p>Це цукерки 3 редакції. В банці 99 грам.<br>
+         <p>Цукерки в баночці за 250 грн.<br>
+        Це цукерки 3 редакції. В банці 99 грам.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
 	    <img src="tastes2.png" alt="tastes2" width="120" height="120" hspace="10">
+	    <br>
+	    <br>
+	     <label>Кількість
+	     <select name="quantity">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+            </select>
+    </label>
+	     <button type="button">Купити</button>
     </article>
     <article>
         <img src="harry.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-         <p>Це цукерки Берті Ботс Гаррі Поттер. В пачці 34 грами.<br>
+         <p>Інші подібні цукерки за 85 грн.<br>
+        Це цукерки Берті Ботс Гаррі Поттер. В пачці 34 грами.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
 	    <img src="tastes3.jpg" alt="tastes3" width="120" height="120" hspace="10">
+	    <br>
+	    <br>
+	     <label>Кількість
+	     <select name="quantity">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+            </select>
+    </label>
+	     <button type="button">Купити</button>
     </article>
-	    
-	    
 	</section>
+	<aside>
+	   <br>
+	   <form method="POST" action="https://formspree.io/oresteja@gmail.com">
+    
+    <fieldset><h3>Ваша контактна інформація:</h3>
+       
+    <label>Ваше ім'я, прізвище<br>
+            <input type="text" name="client name" required>
+    </label>
+       <br>
+       <br>
+    <label>Ваш телефон:<br>
+             <input type="tel" name="client phone" required>  
+    </label>
+       <br>
+       <br>
+       <label>Ваш email:<br>
+            <input type="email" name="client email"> 
+    </label>
+       <br>
+       <br>
+        <label>Ваша адреса:
+    <br>
+            <textarea name="message" rows="8" cols="21">
+            </textarea>
+    </label>
+    <br>
+    <input type="submit" class="one">
+    </fieldset>
+    </form>
+	</aside>
+	
 	
 </body>
 </html>
