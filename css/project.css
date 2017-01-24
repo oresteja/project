@@ -1,3 +1,26 @@
+body{
+	max-width: 1200px;
+	height: 600px;
+  margin: 0 auto;
+}
+.fixed {
+  width: 1180px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: left;
+  background-color: white;
+}
+.fixed2{
+  width: 220px;
+  height: 70px;
+	position: fixed;
+  float: left;
+  top: 0;
+  right: 0;
+  background-color: white;
+}
 ul li{
 	list-style: none;
 	display: inline-block;
@@ -18,23 +41,45 @@ ul li a:hover{
 	background: yellow;
 	color: black
 }
-p {
-	font-family: 'Lora', serif;
+.foto{
+	border-color: grey; 
+	border-width: 2px;
+  border-style: solid;
+  border-radius: 10%;
 }
 .main{
-	width:100%;
-	height: 500px;
-	color: black;
+	width: 720px;
+	height: 550px;
+	color: #4d4ba0;
 	background: #EEE;
+	clear: both;
+	padding: 60px 0px 0px 30px;
+	float: left;
 }
 .text{
 	font-size: 20px;
 	text-shadow: 1px 0px 0px black;
+	font-family: 'Lora', serif;
+	padding-left: 8px;
+}
+.red{
+	color: red;
 }
 .tut {
+	width: 200px;
+	height: 150px;
 	font-size: 20px;
 	font-family: 'Lora', serif;
+	text-shadow: 1px 1px 0px blue;
 	color: red;
-	background: ;
-	
+	border-radius: 50%;
+}
+.aside{
+	width: 200px;
+	height: 500px;
+	padding: 70px;
+	float: left;
+}
+.footer{
+	clear: both;
 }

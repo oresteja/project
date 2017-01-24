@@ -1,3 +1,25 @@
+.body{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.fixed {
+  width: 1180px;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  float: left;
+  background-color: white;
+}
+.fixed2{
+  width: 220px;
+  height: 70px;
+	position: fixed;
+   float: left;
+   top: 0;
+  right: 0;
+  background-color: white;
+}
 ul li{
 	list-style: none;
 	display: inline-block;
@@ -18,6 +40,14 @@ ul li a:hover{
 	background: yellow;
 	color: black;
 }
+.section{
+	margin-top: 70px;
+}
+.article{
+	width: 600px;
+	height: 280px;
+	float: left;
+}
 h3 {
 	color: blue;
 }
@@ -36,7 +66,9 @@ button {
 .one {
 	color: blue;
 }
-	
-	
-	
+.red{
+	color: red;
 }
+
+	
+	

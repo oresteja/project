@@ -3,29 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Project2</title></title>
-    <link rel="stylesheet" href="css/project2.css">
+    <link rel="stylesheet" href="css/ciny.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body class="body">
      <header>
-         <nav>
+   <nav class="fixed">
    <ul>
 	<li><a href="index.html"><p>Головна</p></a></li>
-	<li><a href="#ciny"><p>Ціни</p></a></li>
+	<li><a href="ciny.html"><p>Ціни</p></a></li>
 	<li><a href="#vidhuky"><p>Відгуки</p></a></li>
-	<li><a href="#kontakty"><p>Контакти</p></a></li>
-	<li><a href="#korzyna"><p>Корзина</p></a></li>
+	<li><a href="contacts.html"><p>Контакти</p></a></li>
 	</ul>
 	</nav>
+	<nav class="fixed2">
+	<ul>
+		<li><a href="#korzyna"><p>Корзина</p></a></li>
+		</ul>
+	</nav>
 	</header>
-	<section>
-	    <article>
+	<section class="section">
+	<article class="title">
 	        <h3>
 	            Ось такі цукерочки пропоную вашій увазі:
 	        </h3>
-	    </article>
-    <article>
+	</article>
+	
+    <article class="article">
 	    <img src="smallpack.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-	    <p>Маленька пачка за 90 грн.<br>
+	    <p><strong><span class="red">Маленька пачка за 90 грн.</span></strong><br>
 	    Це цукерки 4 редакції. В пачці 45 грам.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
@@ -44,9 +50,9 @@
     </label>
     <button type="button">Купити</button>
     </article>
-	<article>
+	<article class="article">
 	    <img src="bigpack.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-	     <p>Велика пачка за 220 грн.<br>
+	     <p><strong><span class="red">Велика пачка за 220 грн.</span></strong><br>
 	    Це цукерки 4 редакції. В пачці 99 грам + РУЛЕТКА!<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
@@ -65,9 +71,9 @@
     </label>
 	     <button type="button">Купити</button>
     </article>
-    <article>
+    <article class="article">
         <img src="bottle.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-         <p>Цукерки в баночці за 250 грн.<br>
+         <p><strong><span class="red">Цукерки в баночці за 250 грн.</span></span></strong><br>
         Це цукерки 3 редакції. В банці 99 грам.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
@@ -86,9 +92,9 @@
     </label>
 	     <button type="button">Купити</button>
     </article>
-    <article>
+    <article class="article">
         <img src="harry.jpg" alt="smallpack"  align="left" width="170" height="170" hspace="10" vspace="20">
-         <p>Інші подібні цукерки за 85 грн.<br>
+         <p><strong><span class="red">Інші подібні цукерки за 85 грн.</span></strong><br>
         Це цукерки Берті Ботс Гаррі Поттер. В пачці 34 грами.<br>
 	    Вона містить 10 добрих і 10 поганих смаків.<br>
 	    Ось перелік смаків - </p>
@@ -110,9 +116,9 @@
 	</section>
 	<aside>
 	   <br>
-	   <form method="POST" action="https://formspree.io/oresteja@gmail.com">
-    
-    <fieldset><h3>Ваша контактна інформація:</h3>
+	<form method="POST" action="https://formspree.io/oresteja@gmail.com">
+	<fieldset>
+    <h3>Ваша контактна інформація:</h3>
        
     <label>Ваше ім'я, прізвище<br>
             <input type="text" name="client name" required>
@@ -139,7 +145,9 @@
     </fieldset>
     </form>
 	</aside>
-	
+	<footer>
+    <p><center>Сайт створений у 2017 році</center></p>
+</footer>
 	
 </body>
 </html>
