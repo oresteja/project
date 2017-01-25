@@ -1,6 +1,6 @@
 body{
 	max-width: 1200px;
-	height: 600px;
+	height: 650px;
   margin: 0 auto;
 }
 .fixed {
@@ -52,7 +52,6 @@ ul li a:hover{
 	height: 650px;
 	color: #4d4ba0;
 	background: #EEE;
-	clear: both;
 	padding: 60px 0px 5px 30px;
 	float: left;
 }
@@ -80,14 +79,36 @@ ul li a:hover{
 	font-family: 'Lora', serif;
 	text-shadow: 1px 1px 0px blue;
 	color: red;
+	background: yellow;
 	border-radius: 50%;
+	cursor: pointer;
 }
 .aside{
-	width: 200px;
-	height: 500px;
+	width: 300px;
+	height: 600px;
 	padding: 70px;
 	float: left;
+	margin: -70px;
 }
 .footer{
 	clear: both;
+}
+@keyframes spinnerRotate{
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
+}
+#spin{
+	position: fixed;
+	top: 70px;
+	right: 170px;
+	animation-name: spinnerRotate;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	z-index: 10;
+}
+.opacity{
+	margin: 280px 0px 0px 0px;
+	  opacity: 0.9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
