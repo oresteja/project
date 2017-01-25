@@ -64,6 +64,13 @@ footer p {
     font-size: 20px;
     color: blue;
 }
+.place{
+	width: 650px;
+	height: 500px;
+	color: red;
+	background: blue;
+	clear: both
+}
 
 
 
